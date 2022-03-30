@@ -1,10 +1,13 @@
 var c = 1
-while (c <= 500) {
+/* While convencional */
+while (c <= 3) {
     console.log(c,'Tudo bem ?')
     c++
 }
 
+/* While invertido */
+var c = 1
 do{
     console.log(c,'Tudo bem ?')
     c++
-}while (c <= 500) 
+}while (c <= 5) 
