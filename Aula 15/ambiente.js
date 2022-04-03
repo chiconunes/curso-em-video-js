@@ -22,11 +22,9 @@ for (let pos in num) {
 /* Procurando posicoes */
 // let pos = num.indexOf(8)
 // console.log(`O Valor 8 esta na posicao ${pos} ` );
-let valor = 5
-let pos1 = num.indexOf(Number(valor))
-console.log(pos1)
-console.log(pos1  = -1 ? `Nao foi localizado` : `esta na posicao ${pos1}`)
+let valor = 10
+let pos1 = num.indexOf(Number(valor)) 
 
-console.log(`O Valor ${valor} ${pos1  = -1 ? 'Nao foi localizado' : `esta na posicao ${pos1}`}` );
+console.log(`O Valor ${valor} ${pos1  == -1 ? 'Nao foi localizado' : `esta na posicao ${pos1}`}` );
 
 
